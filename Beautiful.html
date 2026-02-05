@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Scroll of Eternal Devotion</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=IM+Fell+English+SC&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+        :root {
+            --parchment: #f2e8d5;
+            --ink: #2e241b;
+            --gold: #8c6d31;
+            --earth: #4a3728;
+        }
+
+        body {
+            background-color: #1a120b; /* Deep wood/shadow background */
+            color: var(--ink);
+            font-family: 'Libre Baskerville', serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.9;
+        }
+
+        /* The Infinite Scroll */
+        .scroll-container {
+            background-color: var(--parchment);
+            max-width: 750px;
+            margin: 0 auto;
+            padding: 100px 80px;
+            box-shadow: inset 0 0 100px rgba(0,0,0,0.1), 0 0 60px rgba(0,0,0,0.8);
+            border-left: 15px solid var(--earth);
+            border-right: 15px solid var(--earth);
+            position: relative;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 100px;
+        }
+
+        h1 {
+            font-family: 'Cinzel', serif;
+            font-size: 2.5rem;
+            letter-spacing: 5px;
+            margin-bottom: 0;
+        }
+
+        .subtitle {
+            font-family: 'IM Fell English SC', serif;
+            font-size: 1.2rem;
+            color: var(--gold);
+        }
+
+        .flourish {
+            text-align: center;
+            font-size: 2.5rem;
+            color: var(--gold);
+            margin: 60px 0;
+            user-select: none;
+        }
+
+        h2 {
+            font-family: 'Cinzel', serif;
+            text-align: center;
+            border-bottom: 1px solid var(--gold);
+            display: inline-block;
+            width: 100%;
+            margin-top: 80px;
+            padding-bottom: 10px;
+        }
+
+        .poetry {
+            font-style: italic;
+            text-align: center;
+            font-size: 1.3rem;
+            margin: 80px 0;
+            white-space: pre-line;
+            color: var(--earth);
+        }
+
+        .drop-cap {
+            float: left;
+            font-family: 'IM Fell English SC', serif;
+            font-size: 5.5rem;
+            line-height: 0.8;
+            padding-right: 12px;
+            padding-top: 8px;
+            color: var(--gold);
+        }
+
+        /* Almanac Section */
+        .almanac {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            margin: 60px 0;
+        }
+
+        .almanac-entry b {
+            font-family: 'Cinzel', serif;
+            display: block;
+            color: var(--gold);
+        }
+
+        /* The Ledger (Timeline) */
+        .ledger {
+            border-left: 2px solid var(--gold);
+            margin: 50px 20px;
+            padding-left: 30px;
+        }
+
+        .ledger-item {
+            margin-bottom: 40px;
+            position: relative;
+        }
+
+        .ledger-item::before {
+            content: "•";
+            position: absolute;
+            left: -37px;
+            top: 0;
+            color: var(--gold);
+            font-size: 2rem;
+        }
+
+        .date {
+            font-family: 'IM Fell English SC', serif;
+            font-size: 1.1rem;
+            color: var(--gold);
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 150px;
+            font-family: 'Cinzel', serif;
+            font-size: 0.9rem;
+            border-top: 1px solid var(--gold);
+            padding-top: 20px;
+        }
+
+        hr {
+            border: 0;
+            height: 1px;
+            background-image: linear-gradient(to right, transparent, var(--gold), transparent);
+            margin: 80px 0;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="scroll-container">
+        
+        <header>
+            <div class="subtitle">A Proclamation of Unending Grace</div>
+            <h1>To My Lady & Sovereign</h1>
+            <div class="flourish">❦</div>
+        </header>
+
+        <section>
+            <p><span class="drop-cap">I</span>t hath been written by the poets of old that the heart is a kingdom, yet mine own was but a wilderness until thou didst cross its borders. No map could chart the depth of my regard, nor any ink capture the brilliance of thy spirit. I offer this scroll as a testament, bound by no time and limited by no distance.</p>
+        </section>
+
+        <div class="flourish">❧</div>
+
+        <section class="poetry">
+            "Thy beauty is a quiet song,
+            That plays when all the world is still,
+            To thee my wandering thoughts belong,
+            Submissive to thy gentle will."
+        </section>
+
+        <hr>
+
+        <h2>The Almanac of Thy Virtues</h2>
+        <div class="almanac">
+            <div class="almanac-entry">
+                <b>I. Wisdom</b>
+                Thou speakest with the clarity of a mountain stream, bringing peace to my troubled mind.
+            </div>
+            <div class="almanac-entry">
+                <b>II. Radiance</b>
+                Thy smile is the dawn that breaketh the long winter of the soul.
+            </div>
+            <div class="almanac-entry">
+                <b>III. Patience</b>
+                Like the ancient oak, thou art steadfast against the winds of misfortune.
+            </div>
+            <div class="almanac-entry">
+                <b>IV. Kindness</b>
+                Thy heart is a sanctuary for all things small and weary.
+            </div>
+        </div>
+
+        <hr>
+
+        <h2>The Ledger of Our Journey</h2>
+        <div class="ledger">
+            <div class="ledger-item">
+                <div class="date">The First Encounter</div>
+                <p>When the sun stood high and the stars conspired to bring our souls into the same light. A day marked in gold upon the calendar of my life.</p>
+            </div>
+            <div class="ledger-item">
+                <div class="date">The Vow of Silence</div>
+                <p>The moment we realized that words were no longer needed to understand the language of our hearts.</p>
+            </div>
+            <div class="ledger-item">
+                <div class="date">The Present Hour</div>
+                <p>Wherein I find myself more enthralled by thee than when our journey first commenced.</p>
+            </div>
+        </div>
+
+        <div class="flourish">🙖</div>
+
+        <h2>A Prayer for the Morrow</h2>
+        <p>May the seasons turn and the years fade into legend, yet let this one truth remain: as long as the earth holds the sea, and the sky holds the moon, I shall hold thee in the highest honor. My sword, my pen, and my life are ever at thy service.</p>
+
+        <section class="poetry">
+            Until the stars grow cold,
+            And the sun forgets to rise,
+            I’ll find my home within thy heart,
+            And heaven in thine eyes.
+        </section>
+
+        <footer>
+            Duly Noted by Thy Devoted Servant<br>
+            Anno Domini MMXXVI
+        </footer>
+
+    </div>
+
+</body>
+</html>
